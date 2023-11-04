@@ -1,0 +1,4 @@
+we use resources folder for keeping our external data
+* xlx, xlsx
+* txt
+* etc.
