@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 
 public class ProductPage extends BasePage {
-    @FindBy(xpath = "//span[contains(text(),'results for')]/..")
+    @FindBy(xpath = "//span[contains(text(),'Vorschlägen')]/..")
     public WebElement l_resultsForSearchProduct;
 
     public void verifySearchResult(String product){

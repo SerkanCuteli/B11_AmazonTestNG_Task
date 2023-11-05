@@ -18,7 +18,7 @@ public abstract class BasePage {
     public WebElement l_helloUser;
     @FindBy(xpath = "(//span[@class='nav-action-inner'])[1]")
     public WebElement l_signInBtn;
-    @FindBy(xpath = "//span[.='Create a List']")
+    @FindBy(xpath = "//span[text()='Neue Liste anlegen ']")
     public WebElement l_create_a_List;
     @FindBy(id = "searchDropdownBox")
     public WebElement l_searchDropdownBox;

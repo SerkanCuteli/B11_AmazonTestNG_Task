@@ -21,7 +21,6 @@ public class YourListPage extends BasePage{
 
     public void createNewList(String listName){
         BrowserUtils.hover(l_helloUser);
-        BrowserUtils.waitForVisibility(l_create_a_List,10);
         l_create_a_List.click();
         BrowserUtils.waitForVisibility(l_listName, 10);
         l_listName.clear();
